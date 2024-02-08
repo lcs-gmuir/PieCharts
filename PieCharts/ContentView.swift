@@ -22,15 +22,17 @@ struct ContentView: View {
             VStack {
                 Chart {
                     ForEach(coffeeSales, id: \.name) { coffee in
+
                         BarMark(
-                            x: .value("Type", coffee.name),
-                            y: .value("Cup", coffee.count)
+                            x: .value("Cup", coffee.count)
                         )
                         .foregroundStyle(by: .value("Type", coffee.name))
                     }
                 }
+                .frame(height: 100)
             }
             .padding()
+            
         }
     }
 }
