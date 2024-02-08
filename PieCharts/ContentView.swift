@@ -24,7 +24,8 @@ struct ContentView: View {
                     ForEach(coffeeSales, id: \.name) { coffee in
 
                         BarMark(
-                            x: .value("Cup", coffee.count)
+                            x: .value("Cup", coffee.count),
+                            stacking: .normalized
                         )
                         .foregroundStyle(by: .value("Type", coffee.name))
                     }
