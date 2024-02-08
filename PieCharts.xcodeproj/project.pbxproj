@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C21234022B74641C00B5925C /* PieChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21234012B74641C00B5925C /* PieChartsApp.swift */; };
-		C21234042B74641C00B5925C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21234032B74641C00B5925C /* ContentView.swift */; };
+		C21234042B74641C00B5925C /* barChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21234032B74641C00B5925C /* barChart.swift */; };
 		C21234062B74642900B5925C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21234052B74642900B5925C /* Assets.xcassets */; };
 		C21234092B74642900B5925C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21234082B74642900B5925C /* Preview Assets.xcassets */; };
 		C21234142B74642A00B5925C /* PieChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21234132B74642A00B5925C /* PieChartsTests.swift */; };
 		C212341E2B74642A00B5925C /* PieChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212341D2B74642A00B5925C /* PieChartsUITests.swift */; };
 		C21234202B74642A00B5925C /* PieChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212341F2B74642A00B5925C /* PieChartsUITestsLaunchTests.swift */; };
+		C212342D2B74678100B5925C /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212342C2B74678100B5925C /* PieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		C21233FE2B74641C00B5925C /* PieCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21234012B74641C00B5925C /* PieChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartsApp.swift; sourceTree = "<group>"; };
-		C21234032B74641C00B5925C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C21234032B74641C00B5925C /* barChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barChart.swift; sourceTree = "<group>"; };
 		C21234052B74642900B5925C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C21234082B74642900B5925C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C212340A2B74642900B5925C /* PieCharts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PieCharts.entitlements; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		C21234192B74642A00B5925C /* PieChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C212341D2B74642A00B5925C /* PieChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartsUITests.swift; sourceTree = "<group>"; };
 		C212341F2B74642A00B5925C /* PieChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C212342C2B74678100B5925C /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				C21234012B74641C00B5925C /* PieChartsApp.swift */,
-				C21234032B74641C00B5925C /* ContentView.swift */,
+				C21234032B74641C00B5925C /* barChart.swift */,
+				C212342C2B74678100B5925C /* PieChart.swift */,
 				C21234052B74642900B5925C /* Assets.xcassets */,
 				C212340A2B74642900B5925C /* PieCharts.entitlements */,
 				C21234072B74642900B5925C /* Preview Content */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21234042B74641C00B5925C /* ContentView.swift in Sources */,
+				C212342D2B74678100B5925C /* PieChart.swift in Sources */,
+				C21234042B74641C00B5925C /* barChart.swift in Sources */,
 				C21234022B74641C00B5925C /* PieChartsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
