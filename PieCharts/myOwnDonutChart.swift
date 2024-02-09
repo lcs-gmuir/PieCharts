@@ -36,8 +36,8 @@ struct myOwnDonutChart: View {
                 SectorMark(angle: .value("study", studys.avg),
                            innerRadius: .ratio(0.65)
                 )
+                .opacity(selectedSector == nil ? 1.0 : (selectedSector == studys.study ? 1.0 : 0.5))
                 
-                .opacity(selectedSector == nil ? 1.0 : (selectedSector == studys.name ? 1.0 : 0.5))
                 .foregroundStyle(by: .value("subject", studys.study ))
                 .annotation(position: .overlay){
                     Text("\(studys.avg)")
