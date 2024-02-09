@@ -39,6 +39,9 @@ struct donutChart: View {
                     }
                 }
                 .frame(height: 500)
+                .chartBackground { proxy in
+                    Text("coffee")
+                    .font(.system(size: 100))}
             }
             .padding()
             
