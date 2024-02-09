@@ -25,6 +25,10 @@ struct myOwnDonutChart: View {
                 )
                 
                 .foregroundStyle(by: .value("subject", studys.study ))
+                .annotation(position: .overlay){
+                    Text("\(studys.avg)")
+                        .font(.title)
+                }
 
             }
 
