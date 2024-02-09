@@ -20,8 +20,14 @@ struct myOwnDonutChart: View {
     var body: some View {
         Chart {
             ForEach(Grades, id: \.study) { studys in
-                SectorMark(angle: .value("study", studys.avg))
+                SectorMark(angle: .value("study", studys.avg),
+                           innerRadius: .ratio(0.65)
+                )
+                
+                .foregroundStyle(by: .value("subject", studys.study ))
+
             }
+
         }
     }
 }
