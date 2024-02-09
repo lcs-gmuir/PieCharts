@@ -18,7 +18,11 @@ struct myOwnDonutChart: View {
     ]
 
     var body: some View {
-        Text("Hello, World!")
+        Chart {
+            ForEach(Grades, id: \.study) { studys in
+                SectorMark(angle: .value("study", studys.avg))
+            }
+        }
     }
 }
 

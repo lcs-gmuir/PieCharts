@@ -20,6 +20,7 @@ struct donutChart: View {
     //making the chart interactable
     @State private var selectedCount: Int?
     @State private var selectedSector: String?
+    // selecting stuff
     private func findSelectedSector(value: Int) -> String? {
 
         var accumulatedCount = 0
