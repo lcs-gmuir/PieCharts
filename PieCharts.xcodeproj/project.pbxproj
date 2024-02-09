@@ -15,6 +15,7 @@
 		C212341E2B74642A00B5925C /* PieChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212341D2B74642A00B5925C /* PieChartsUITests.swift */; };
 		C21234202B74642A00B5925C /* PieChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212341F2B74642A00B5925C /* PieChartsUITestsLaunchTests.swift */; };
 		C212342D2B74678100B5925C /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212342C2B74678100B5925C /* PieChart.swift */; };
+		C212342F2B75A98800B5925C /* donutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212342E2B75A98800B5925C /* donutChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C212341D2B74642A00B5925C /* PieChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartsUITests.swift; sourceTree = "<group>"; };
 		C212341F2B74642A00B5925C /* PieChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C212342C2B74678100B5925C /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		C212342E2B75A98800B5925C /* donutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donutChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C21234012B74641C00B5925C /* PieChartsApp.swift */,
 				C21234032B74641C00B5925C /* barChart.swift */,
 				C212342C2B74678100B5925C /* PieChart.swift */,
+				C212342E2B75A98800B5925C /* donutChart.swift */,
 				C21234052B74642900B5925C /* Assets.xcassets */,
 				C212340A2B74642900B5925C /* PieCharts.entitlements */,
 				C21234072B74642900B5925C /* Preview Content */,
@@ -265,6 +268,7 @@
 				C212342D2B74678100B5925C /* PieChart.swift in Sources */,
 				C21234042B74641C00B5925C /* barChart.swift in Sources */,
 				C21234022B74641C00B5925C /* PieChartsApp.swift in Sources */,
+				C212342F2B75A98800B5925C /* donutChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
