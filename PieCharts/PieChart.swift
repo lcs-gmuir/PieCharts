@@ -29,6 +29,11 @@ struct PieChart: View {
     angularInset: 2.0
                              )
                         .foregroundStyle(by: .value("Type", coffee.name))
+                        .annotation(position: .overlay) {
+                            Text("\(coffee.count)")
+                                .font(.headline)
+                                .foregroundStyle(.white)
+                        }
                     }
                 }
                 .frame(height: 500)
