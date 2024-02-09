@@ -25,6 +25,7 @@ struct PieChart: View {
 
                         SectorMark(
     angle: .value("Cup", coffee.count),
+    outerRadius: coffee.name == "Latte" ? 150 : 120,
     angularInset: 2.0
                              )
                         .foregroundStyle(by: .value("Type", coffee.name))
